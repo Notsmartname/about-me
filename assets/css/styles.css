@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-height: 926px;
+    background: url('../images/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    /* height: 76px; */
+    background: #000000;
+    padding: 15px 0;
+}
+
+.nav_content {
+    margin: 0 auto;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_content-list {
+    display: flex;
+}
+
+.list_link {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 89px;
+}
+
+.logo {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+.header_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header_content-title {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #000000;
+    margin-bottom: 145px;
+}
+
+.header_content-btn {
+    background: #FFFFFF;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 10px;
+    width: 190px;
+}
+
+.about_me {
+    padding-top: 30px;
+    background: #0E1C25;
+}
+
+.about_me-title {
+    text-align: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+.about__me-content {
+    margin-top: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 112px;
+}
+
+
+.content__text {
+    max-width: 470px;
+    margin-left: 106px;
+}
+
+.content__text-title{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-bottom: 64px;
+}
+
+.content__text-discription {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.projects {
+    padding-top: 45px;
+    padding-bottom: 70px;
+    background: #5C6B81;
+}
+
+.projects__title {
+    text-align: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.projects__content-card {
+    padding: 15px 15px 27px 15px;
+    background: #B12B06;
+    border-radius: 10px;
+    max-width: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__title {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin: 20px 0;
+}
+
+.card_descr {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
+
+.card__btn {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 8px 25px;
+}
+
+.project__content {
+    margin-top: 62px;
+    display: flex;
+    gap: 87px;
+    flex-wrap: wrap;
+}
+
+.footer {
+    background: #000000;
+    padding-top: 47px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer__title {
+    padding-bottom: 36px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    /* text-align: center; */
+    color: #FFFFFF;
+}
+
+.icons__cos {
+    display: flex;
+    align-items: center;
+    padding-bottom: 62px;
+    
+}
+
+.icon {
+   justify-content: space-between;
+}
