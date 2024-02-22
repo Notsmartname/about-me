@@ -228,9 +228,11 @@
     display: flex;
     align-items: center;
     padding-bottom: 62px;
+    justify-content: space-between;
+    width: 350px;
     
 }
 
 .icon {
-   justify-content: space-between;
+   
 }
